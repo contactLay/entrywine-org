@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EntryWine - Premium Moldovan wine consulting services. Expert wine consultants connecting international buyers with exceptional Moldovan wines. Powered by Doina Vin.">
+    <meta name="keywords" content="wine consulting, moldovan wine, wine specialist, wine expert, premium wine, doina vin, wine advisory, wine sourcing">
+    <meta name="author" content="EntryWine">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://entrywine.org/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://entrywine.org/">
+    <meta property="og:title" content="EntryWine - Premium Moldovan Wine Consulting">
+    <meta property="og:description" content="Expert wine consultants connecting buyers with exceptional Moldovan wines. Powered by Doina Vin.">
+    <meta property="og:image" content="https://entrywine.org/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://entrywine.org/">
+    <meta property="twitter:title" content="EntryWine - Premium Moldovan Wine Consulting">
+    <meta property="twitter:description" content="Expert wine consultants connecting buyers with exceptional Moldovan wines.">
+    <meta property="twitter:image" content="https://entrywine.org/og-image.jpg">
+
+    <title>EntryWine - Premium Moldovan Wine Consulting | Powered by Doina Vin</title>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "EntryWine",
+      "description": "Premium wine consulting services specializing in Moldovan wines for international buyers, hotels, and restaurants.",
+      "url": "https://entrywine.org",
+      "telephone": "+373-22-XXX-XXX",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MD",
+        "addressRegion": "Chișinău"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Doina Vin",
+        "url": "https://www.doinavin.md"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Europe"
+      },
+      "serviceType": ["Wine Consulting", "Wine Sourcing", "Wine Advisory"]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does EntryWine do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EntryWine provides premium wine consulting services, specializing in connecting international buyers with exceptional Moldovan wines. We are powered by Doina Vin, one of Moldova's leading wine producers and exporters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the connection to Doina Vin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EntryWine is the international consulting division of Doina Vin, a prestigious Moldovan wine producer with over 20 years of expertise. We leverage Doina Vin's deep knowledge and extensive portfolio to serve our clients worldwide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who are your typical clients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We work with hotels, restaurants, wine importers, distributors, and retailers looking to discover unique, high-quality Moldovan wines for their markets. Our clients span Europe, Asia, and North America."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a1b4d 0%, #9b2c5a 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 20px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #6a1b4d;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .service-card h3 {
+            color: #6a1b4d;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .about {
+            background: white;
+            padding: 60px 0;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-text h3 {
+            color: #6a1b4d;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .about-text p {
+            margin-bottom: 15px;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .about-text a {
+            color: #6a1b4d;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid #6a1b4d;
+        }
+
+        .about-text a:hover {
+            color: #9b2c5a;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            color: #6a1b4d;
+            font-weight: 700;
+        }
+
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .cta {
+            background: #6a1b4d;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta h2 {
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .cta p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #6a1b4d;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #f0f0f0;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #2a2a2a;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+        }
+
+        footer a:hover {
+            border-bottom-color: white;
+        }
+
+        .powered-by {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1.1em;
+            }
+
+            section h2 {
+                font-size: 2em;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EntryWine</h1>
+            <p>Premium Wine Consulting for Discerning Buyers</p>
+            <div class="badge">Specializing in Moldovan Wines</div>
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Expertise</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>Wine Consulting</h3>
+                    <p>Expert guidance for hotels, restaurants, and distributors looking to discover exceptional Moldovan wines. We provide personalized recommendations tailored to your market and clientele.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Wine Sourcing</h3>
+                    <p>Direct access to premium Moldovan wines from award-winning producers. We handle all aspects of sourcing, from selection to logistics, ensuring quality and reliability.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Market Advisory</h3>
+                    <p>Strategic insights on Moldovan wine trends, pricing, and market positioning. We help you make informed decisions to maximize your wine program's success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Powered by Doina Vin</h3>
+                    <p>EntryWine is the international consulting division of <a href="https://www.doinavin.md" target="_blank" rel="noopener">Doina Vin</a>, one of Moldova's most respected wine producers and exporters.</p>
+                    <p>With over two decades of winemaking expertise and a portfolio of award-winning wines, Doina Vin exports to 75+ countries worldwide. Through EntryWine, we extend our knowledge and network to help international buyers discover the finest Moldovan wines.</p>
+                    <p>Our deep roots in Moldova's wine industry give us unparalleled access to exceptional producers, rare varietals, and exclusive partnerships that we share with our consulting clients.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number">75+</div>
+                        <div class="stat-label">Countries Served</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Clients Worldwide</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Discover Moldovan Wines</h2>
+            <p>Connect with our wine experts to explore premium Moldovan wines for your business.</p>
+            <a href="https://www.doinavin.md/contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 EntryWine. All rights reserved.</p>
+            <p>Chișinău, Moldova | <a href="mailto:info@entrywine.org">info@entrywine.org</a></p>
+            <div class="powered-by">
+                Powered by <a href="https://www.doinavin.md" target="_blank" rel="noopener">Doina Vin</a> - Premium Moldovan Wine Producer
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
